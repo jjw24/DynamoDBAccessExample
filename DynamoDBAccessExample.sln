@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{40B10892-50B7-45DD-92B0-452D6022245F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Test", "Infrastructure.Test\Infrastructure.Test.csproj", "{F5FBF503-DD41-47E9-930E-3D1970A96D9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B10892-50B7-45DD-92B0-452D6022245F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B10892-50B7-45DD-92B0-452D6022245F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B10892-50B7-45DD-92B0-452D6022245F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B10892-50B7-45DD-92B0-452D6022245F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FBF503-DD41-47E9-930E-3D1970A96D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FBF503-DD41-47E9-930E-3D1970A96D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FBF503-DD41-47E9-930E-3D1970A96D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FBF503-DD41-47E9-930E-3D1970A96D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {732B8887-4351-4AEA-84D3-D3D74229B6BD}
+	EndGlobalSection
+EndGlobal
