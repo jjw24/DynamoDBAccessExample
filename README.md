@@ -5,7 +5,7 @@
 Purpose:
 To demonstrate AWS DynamoDB connection. 
 
-How:
-In AWS- IAM user is created to provide EC2 instance access.
+IAM requirement:
+In AWS- an IAM user need to be created with EC2 and DynamoDB access.
 
-Locally- The IAM user's credentials are stored in Profile within the SDK Store and retrieved by specifying it in App.config or Web.config.
+Locally- The above IAM user's credentials are stored in Profile within the SDK Store and retrieved by specifying it in App.config or Web.config.
